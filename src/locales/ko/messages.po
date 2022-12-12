@@ -42,19 +42,19 @@ msgid "<0/>Profit price: {0} ${1}. This rule applies for the next {2}, until {3}
 msgstr ""
 
 #: src/App/App.js
-msgid "<0>Install Coinbase Wallet</0> to start using GMX"
+msgid "<0>Install Coinbase Wallet</0> to start using GMX."
 msgstr ""
 
 #: src/App/App.js
-msgid "<0>Install Coinbase Wallet</0>, and use GMX with its built-in browser"
+msgid "<0>Install Coinbase Wallet</0>, and use GMX with its built-in browser."
 msgstr ""
 
 #: src/App/App.js
-msgid "<0>Install MetaMask</0> to start using GMX"
+msgid "<0>Install MetaMask</0> to start using GMX."
 msgstr ""
 
 #: src/App/App.js
-msgid "<0>Install MetaMask</0>, and use GMX with its built-in browser"
+msgid "<0>Install MetaMask</0>, and use GMX with its built-in browser."
 msgstr ""
 
 #: src/components/Exchange/OrdersToa.js
@@ -77,8 +77,12 @@ msgstr ""
 msgid "<0>This will withdraw and unreserve all tokens as well as pause vesting.<1/><2/>esGMX tokens that have been converted to GMX will remain as GMX tokens.<3/><4/>To claim GMX tokens without withdrawing, use the \"Claim\" button under the Total Rewards section.<5/><6/></0>"
 msgstr "<0>모든 토큰이 인출되고 취소되며 베스팅이 중지됩니다.<1/><2/>GMX로 변환된 esGMX 토큰은 GMX 토큰으로 유지됩니다.<3/><4/>인출하지 않고 GMX 토큰을 수령하기 위해서는 총 보상 섹션 아래의 \"수령하기\" 버튼을 사용해주세요."
 
+#: src/pages/Dashboard/DashboardV2.js
+msgid "<0>Total value of tokens in GLP pool ({chainName}).</0><1>Other websites may show a higher value as they add positions' collaterals to the GLP pool.</1>"
+msgstr ""
+
 #: src/lib/wallets/index.tsx
-msgid "<0>Your wallet is not connected to {0}.</0><1/><2>Switch to {1}</2><3>Add {2}</3>"
+msgid "<0>Your wallet is not connected to {0}.</0><1/><2>Switch to {1}</2>"
 msgstr ""
 
 #: src/components/Exchange/SwapBox.js
@@ -229,6 +233,10 @@ msgstr "고품질의 여러 가격 피드를 통해 청산 발생 시기를 결�
 msgid "Announcement"
 msgstr "공지"
 
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "App"
+msgstr ""
+
 #: src/domain/tokens/approveTokens.tsx
 msgid "Approval failed"
 msgstr ""
@@ -297,8 +305,8 @@ msgid "Assets Under Management"
 msgstr ""
 
 #: src/pages/Dashboard/DashboardV2.js
-msgid "Assets Under Management: GMX staked (All chains) + GLP pool ({chainName})"
-msgstr "자산운용규모: 스테이킹된 GMX + GLP 풀 ({chainName})"
+msgid "Assets Under Management: GMX staked (All chains) + GLP pool ({chainName})."
+msgstr ""
 
 #: src/components/Glp/GlpSwap.js
 msgid "Available"
@@ -807,7 +815,7 @@ msgstr "{wrappedTokenSymbol}를 {nativeTokenSymbol}로 변환"
 msgid "Copy"
 msgstr "복사"
 
-#: src/components/AddressDropdown/AddressDropdown.js
+#: src/components/AddressDropdown/AddressDropdown.tsx
 msgid "Copy Address"
 msgstr "주소 복사"
 
@@ -960,7 +968,6 @@ msgstr "탈중화<0/>퍼페추얼 거래소"
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/OrdersList.js
-#: src/components/Exchange/OrdersList.js
 #: src/components/Exchange/TradeHistory.js
 msgid "Decrease"
 msgstr ""
@@ -1037,7 +1044,7 @@ msgstr ""
 msgid "Disable order validations"
 msgstr "주문 밸리데이션 무효화"
 
-#: src/components/AddressDropdown/AddressDropdown.js
+#: src/components/AddressDropdown/AddressDropdown.tsx
 msgid "Disconnect"
 msgstr "연결 끊기"
 
@@ -1519,7 +1526,6 @@ msgstr "잘못된 네트워크입니다"
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/OrdersList.js
-#: src/components/Exchange/OrdersList.js
 #: src/components/Exchange/TradeHistory.js
 msgid "Increase"
 msgstr ""
@@ -1760,7 +1766,6 @@ msgstr "로딩중..."
 #: src/components/Exchange/ConfirmationBox.js
 #: src/components/Exchange/ExchangeTVChart.js
 #: src/components/Exchange/ExchangeTVChart.js
-#: src/components/Exchange/OrdersList.js
 #: src/components/Exchange/OrdersList.js
 #: src/components/Exchange/PositionEditor.js
 #: src/components/Exchange/PositionSeller.js
@@ -2052,12 +2057,12 @@ msgstr "순이익"
 
 #: src/components/Exchange/PositionsList.js
 #: src/components/Exchange/PositionsList.js
-msgid "Net Value: Initial Collateral - Borrow Fee + PnL"
+msgid "Net Value: Initial Collateral + PnL - Borrow Fee"
 msgstr ""
 
 #: src/components/Exchange/PositionsList.js
 #: src/components/Exchange/PositionsList.js
-msgid "Net Value: Initial Collateral - Fees + PnL"
+msgid "Net Value: Initial Collateral + PnL - Fees"
 msgstr ""
 
 #: src/components/Exchange/ConfirmationBox.js
@@ -2124,10 +2129,6 @@ msgstr ""
 #: src/components/Exchange/OrdersToa.js
 msgid "Note that orders are not guaranteed to be executed.<0/><1/>This can occur in a few situations including but not exclusive to:"
 msgstr "주문 실행은 보장되지 않습니다.<0/><1/>이것은 다음과 같은 상황에 일어날 수 있습니다:"
-
-#: src/pages/BuyGlp/BuyGlp.js
-msgid "Note that there is a minimum holding time of 15 minutes after a purchase.<0/>View <1>staking</1> page."
-msgstr ""
 
 #: src/components/Referrals/referralsHelper.js
 msgid "Only letters, numbers and underscores are allowed."
@@ -2751,7 +2752,6 @@ msgstr "포지션 공유"
 #: src/components/Exchange/ExchangeTVChart.js
 #: src/components/Exchange/ExchangeTVChart.js
 #: src/components/Exchange/OrdersList.js
-#: src/components/Exchange/OrdersList.js
 #: src/components/Exchange/PositionEditor.js
 #: src/components/Exchange/PositionSeller.js
 #: src/components/Exchange/PositionsList.js
@@ -3273,10 +3273,6 @@ msgstr ""
 msgid "Total fees earned since {0}: {1} USD<0/>Fee assets: {feeText}"
 msgstr ""
 
-#: src/pages/Dashboard/DashboardV2.js
-msgid "Total value of tokens in GLP pool ({chainName})"
-msgstr "GLP 풀 ({chainName})의 토큰 총액"
-
 #: src/components/StatsTooltip/StatsTooltip.tsx
 msgid "Total:"
 msgstr ""
@@ -3566,7 +3562,11 @@ msgstr "베스팅 상황"
 msgid "View"
 msgstr "보기"
 
-#: src/components/AddressDropdown/AddressDropdown.js
+#: src/pages/BuyGlp/BuyGlp.js
+msgid "View <0>staking</0> page."
+msgstr ""
+
+#: src/components/AddressDropdown/AddressDropdown.tsx
 msgid "View in Explorer"
 msgstr "Explorer에서 보기"
 
@@ -3983,10 +3983,6 @@ msgid "{0} tokens have been converted to GMX from the {1} esGMX deposited for ve
 msgstr ""
 
 #: src/components/Exchange/TradeHistory.js
-msgid "{0} {1} {longOrShortText}, -{2} USD, {3} Price: ${4} USD"
-msgstr ""
-
-#: src/components/Exchange/TradeHistory.js
 msgid ""
 "{0}:\n"
 "Swap {amountInDisplay} {1} for {minOutDisplay} {2},\n"
@@ -3998,6 +3994,10 @@ msgid ""
 "{0}:\n"
 "{1},\n"
 "Price: {priceDisplay}"
+msgstr ""
+
+#: src/components/Exchange/TradeHistory.js
+msgid "{0}  {1} {longOrShortText}, -{2} USD, {3} Price: ${4} USD"
 msgstr ""
 
 #: src/components/Exchange/TradeHistory.js
@@ -4026,6 +4026,10 @@ msgstr ""
 #: src/components/Glp/GlpSwap.js
 msgid "{nativeTokenSymbol} ({wrappedTokenSymbol}) APR"
 msgstr "{nativeTokenSymbol} ({wrappedTokenSymbol}) APR"
+
+#: src/components/Exchange/PositionSeller.js
+msgid "{nativeTokenSymbol} can not be sent to smart contract addresses. Select another token."
+msgstr ""
 
 #: src/components/Exchange/SwapBox.js
 msgid "{swapOption, select, LONG {Longing} SHORT {Shorting}} {0} not supported"
